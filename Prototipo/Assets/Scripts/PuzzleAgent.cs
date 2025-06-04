@@ -37,6 +37,12 @@ public class PuzzleAgent : Agent
             SetReward(1f);
             EndEpisode();
         }
+        if (transform.localPosition.y < -5 || transform.localPosition.y > 5 || 
+            transform.localPosition.x < -5 || transform.localPosition.x > 5)
+        {
+            SetReward(-1.0f);
+            EndEpisode();
+        }
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)
