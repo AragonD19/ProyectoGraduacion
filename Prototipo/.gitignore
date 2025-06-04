@@ -1,0 +1,54 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DS_Store
+*.apk
+*.aab
+*.zip
+
+# Visual Studio Code
+.vscode/
+
+# Crashlytics
+crashlytics-build.properties
+
+# Unity ML-Agents artifacts
+results/
+summaries/
+models/
+checkpoints/
+*.onnx
+
+# Python (entorno virtual y caché)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.tflite
+
+# Configuración específica del sistema
+.DS_Store
+Thumbs.db
